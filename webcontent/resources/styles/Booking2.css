@@ -1,0 +1,242 @@
+@charset "ISO-8859-1";
+
+table
+{
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px 1px 2px 1px;
+	table-layout:auto;
+ 	background-color: #dadada;
+}
+
+.table 
+{
+	
+	font: 19px arial, sans-serif;
+}
+
+
+th
+{
+	border-bottom-style:double;
+	border-bottom-color:#ffa500;
+	border-bottom-width:thick;
+   <!-- background-color: #4CAF50;-->
+    color: white;
+}
+#scrum
+{
+	font-size:40px;
+}
+
+th,td
+{
+	padding: 25px;
+	text-align:center;
+}
+
+table.table tbody
+{
+	padding:0;
+}
+tr:hover 
+{
+	background-color: #b0f7ae;
+}
+
+ .container2
+  {
+  text-align:center;
+  
+  }
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: f9f9f9;
+  }
+  
+.bookingform
+  {
+  	background-color: #dadada;
+  	padding: 20px;
+  	border-style:double;
+	border-color:#ffa500;
+	border-width:thick;
+	width:50%;
+	text-align:center;
+  }
+ #submitForm
+  {
+   background-color: #4CAF50;
+   border-color:#4CAF50;
+  
+  }
+  
+  #home
+  {
+  	background-color: #dadada;
+  	text-align:center;
+  	padding:20px;
+  }
+  
+#history:active
+{
+	background-color: #4CAF50;
+}
+  
+  #scheduler_here
+  {
+  
+  	width: 700px;
+  	height: 400px;
+  }
+  
+  
+  #mymodal3
+{
+	width: 1000px;
+	height: 600px;
+	
+	padding: 30px;
+}
+
+.dhx_cal_tab
+{
+	display:inline-block;
+	
+}
+  
+ 
+
+.caltable
+{
+
+	table-layout:auto;
+	width: auto;
+ 	border-collapse: collapse;
+ 	display:inline-block;
+ 	
+}
+
+#recipients {
+
+	width: 440px !important;
+	display: inline-block;
+}
+
+#day
+{
+	display : inline-table;
+}
+
+
+/*Header CSS to be deleted once on JSP page  */
+
+
+#headerName
+{
+  background-color:red;
+}
+#headerlocation
+{
+margin-left: 25px;
+margin-bottom: 10px;
+background-color:orange;
+}
+
+
+
+
+/* Footer CSS to be deleted once on JSP page */
+
+/*
+footer
+{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 red;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 18px;
+
+    left: 0;
+    bottom: 0;
+ 
+
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+	
+	
+	
+}
+*/
+
+
+.footer-basic-centered
+{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 red;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 18px;
+	position:fixed;
+    left: 0;
+    bottom: 0;
+ 
+}
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+/*--------------Main Page CSS-----------------*/
+
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+  
+  
+  
+  
+  

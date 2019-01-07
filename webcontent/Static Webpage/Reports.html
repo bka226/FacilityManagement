@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="Report_Style_Page.css">
+		
+
+	
+    <title> Reports </title>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Rooms', 'Scrum', 'Training', 'Conference'],
+          ['Monthly', 10, 20, 30],
+        
+        
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Report',
+            
+          },
+          bars: 'Vertical' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+
+	
+  </head>
+  
+  <body style="background-color:#fffef2;">
+        <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+
+                        <img src="C:\Users\syntel\git\frm\FRM\WebContent\Static Webpage\logo2.PNG"   class="img-responsive"  width="220" height="140">
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <img src="C:\Users\syntel\git\frm\FRM\WebContent\Static Webpage\syntel.png"  class="img-responsive hidden-xs"  width="160" height="170">
+                            <div class="dropdown"> Welcome
+                                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Binod Katwal
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="login.html">Sign Out</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Memphis,TN
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Change Location</a></li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </nav>
+ 
+
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </button>
+
+                 </div>
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="ManageResources.html"><strong>Home </strong></a></li>
+                    <li><a href="#"><strong> Manage Booking</strong></a></li>
+                    <li><a href="ManageResources.html"><strong> Manage Resources</strong></a></li>
+                    <li><a href="#"><strong>Reports </strong></a></li>
+                    <li><a href="Users.html"> <strong> Users </strong></a></li>
+                 </ul>
+
+	        </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+        </div>
+  
+  <div class="container">
+      <h2 style="text-align:center;"><strong>Reports</strong></h2>
+
+      <form class="col-md-3 input-group pull-left ">
+        <div class="dropdown">
+
+          <button class="btn btn-Secondary dropdown-toggle btn-lg" type="button" id="roomtype" data-toggle="dropdown">Room Type
+              <span class="caret"></span></button>
+              
+          <ul class="dropdown-menu" >
+              <li><a href="#">T Room</a></li>
+              <li><a href="#">B Room</a></li>
+              <li><a href="#">C Room</a></li>
+          </ul>
+       	
+  
+      </div>
+      
+      </form>
+      
+      <form class="col-md-3 input-group pull-left">
+      
+        <div class="dropdown">
+
+          <button class="btn btn-Secondary  dropdown-toggle btn-lg" type="button" id="reporttype" data-toggle="dropdown">Type of Report
+              <span class="caret"></span></button>
+          <ul class="dropdown-menu" >
+              <li><a href="#">Monthly</a></li>
+          </ul>
+
+      </div>
+      
+      
+ 	<div>     
+		<form class="col-md-3 input-group pull-center"> 
+			<button class="btn btn-Secondary btn-lg" type="button" id="reporttype">Generate Report</button>
+		</form>
+    </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+
+    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+
+</body>
+
+
+</html>
+
+
+
+
+

@@ -1,0 +1,197 @@
+@charset "ISO-8859-1";
+
+table
+{
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px 1px 2px 1px;
+	table-layout:auto;
+	width: 100%;
+ 	background-color: #dadada;
+}
+
+
+th
+{
+	border-bottom-style:double;
+	border-bottom-color:#ffa500;
+	border-bottom-width:thick;
+   <!-- background-color: #4CAF50;-->
+    color: white;
+}
+
+th,td
+{
+	padding: 25px;
+	text-align:center;
+}
+
+tr:hover 
+{
+	background-color: #b0f7ae;
+}
+
+ .container2
+  {
+  text-align:center;
+  
+  }
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: f9f9f9;
+  }
+  
+.bookingform
+  {
+  	background-color: #dadada;
+  	padding: 20px;
+  	border-style:double;
+	border-color:#ffa500;
+	border-width:thick;
+	width:50%;
+	text-align:center;
+  }
+ #submitForm
+  {
+   background-color: #4CAF50;
+   border-color:#4CAF50;
+  
+  }
+  
+  #home
+  {
+  	background-color: #dadada;
+  	text-align:center;
+  	padding:20px;
+  }
+  
+#history:active
+{
+	background-color: #4CAF50;
+}
+  
+  /*
+	.nav>li>a.active,
+	.nav>li>a:hover,
+	.nav>li>a:focus
+  {
+  	background-color: #4CAF50;
+  }
+  
+  .tab-pane:active
+  {
+  background-color: #4CAF50;
+  }
+  
+.container2
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+#mymodal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+*/
+
+.caltable
+{
+
+	table-layout:auto;
+	width: auto;
+ 	border-collapse: collapse;
+ 	display:inline-block;
+ 	
+}
+
+#recipients {
+
+	width: 440px !important;
+	display: inline-block;
+}
+
+
+
+/*Header CSS to be deleted once on JSP page  */
+
+header
+
+#headerName
+{
+  background-color:red;
+}
+#headerlocation
+{
+margin-left: 25px;
+margin-bottom: 10px;
+background-color:orange;
+}
+
+
+
+/* Footer CSS to be deleted once on JSP page */
+
+/*
+footer
+{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 red;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 18px;
+
+    left: 0;
+    bottom: 0;
+ 
+
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+	
+	
+	
+}
+*/
+
+
+.footer-basic-centered
+{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 red;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 18px;
+	position:fixed;
+    left: 0;
+    bottom: 0;
+ 
+}
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  

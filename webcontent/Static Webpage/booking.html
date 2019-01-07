@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Booking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel=" stylesheet" type="text/css" href="Booking.css">
+  	
+ 
+<script type="text/javascript">
+
+ var clicked =true;
+	$(document).ready(function(){
+		//$("td").click(function (){
+			//$("#9").css('background-color', '#4CAF50').toggle();
+		//});
+		
+		$("#9").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#10").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#11").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#12").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#1").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		$("#2").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#3").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		$("#4").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		$("#5").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });	
+		$("#6").click(function(){
+            if(clicked){
+                $(this).css('background-color', '#4CAF50');
+                clicked  = false;
+            } else {
+                $(this).css('background-color', '#dadada');
+                clicked  = true;
+            }   
+        });
+		
+		
+		
+});
+
+</script>
+</head>
+<body>
+<!-- ----------------------------------Header---------------------------------------- -->
+ <header>
+ <div class="container-fluid navbar-fixed " >
+    <nav class="navbar navbar-default   "  >
+        <div class="container-fluid" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <img src="logo2.png"   class="img-responsive"  width="220" height="140">
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle " type="button" id="headername" data-toggle="dropdown">  Binod Katwal   <span class="  glyphicon glyphicon-user "></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="login.html">Sign Out</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right ">
+                    <img src="syntel.png"  class="img-responsive hidden-xs"  width="160" height="170">
+
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="headerlocation" data-toggle="dropdown"> Memphis,TN
+                            <span class=" fa fa-map-marker"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Change Location</a></li>
+
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    
+
+</div>
+
+</header>
+<!-- ------------------------------------ End of header ------------------------------- -->
+
+<div class="scroll">
+<div class="container">
+  <h2>Bookings</h2>
+  <ul  class="nav nav-tabs nav-justified" role="tablist" >
+    <li class="active"><a data-toggle="tab" id="tabs" href="#home">Schedule Booking</a></li>
+   <!--   <li><a data-toggle="tab" id="tabs" href="#makeBook">Make a Booking</a></li> -->
+    <li><a data-toggle="tab" id="tabs" href="#history">Booking History</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      
+	     <h1 id="scrum" class="alter">Scrum Room ...</h1>
+	     	<label> Room Specifications</label>
+	     	 <p> Maximum of 12 people <br>
+     			1 Projector/Screen<br>
+     			1 TV</p>
+	     <h1 id="conference" class="alter">Conference Room...</h1>
+	     	<label> Room Specifications</label>
+	     	<p> Maximum of 16 people <br>
+     			1 Projector/Screen<br>
+     			1 TV</p>
+	     <h1 id="training" class="alter">Training Room...</h1>
+	     	<label> Room Specifications</label>
+	     	<p> Maximum of 20 people <br>
+     			1 Projector/Screen<br>
+     			10 Computers<br>
+     			1White board</p>
+     			
+     			
+     			
+     			
+     			
+     			1 Projector/Screen<br>
+     			10 Computers<br>
+     			1White board</p>
+     			
+     			
+     			
+     			1 Projector/Screen<br>
+     			10 Computers<br>
+     			1White board</p>
+    </div>
+    
+ <!-- ----------
+    <div align="center"id="makeBook" class="tab-pane fade">
+      <h3>Make a Booking</h3>
+     <form class="bookingform">
+		<div class="form-group">
+     	<label>Room Type:</label>
+     	<select class="form-control" class="mr-sm-2" id="month" required>
+     		<option value="" selected hidden>Pick a Month </option>
+     		<option >January </option>
+     		<option value=2>February </option>
+     		<option>March </option>
+     		<option value=1>April </option>
+     		<option>May </option>
+     		<option value=1>June </option>
+     		<option>July </option>
+     		<option>August </option>
+     		<option value=1>September </option>
+     		<option>October </option>
+     		<option value=1>November </option>
+     		<option>December </option>
+     	</select>
+     	 	<select class="form-control" class="mr-sm-2" id="day" required>
+     		<option value="" selected hidden>Pick a Day </option>
+     		<option >1 </option>
+     		<option >2 </option>
+     		<option >4 </option>
+     		<option >5 </option>
+     		<option >6 </option>
+     		<option >7 </option>
+     		<option >8 </option>
+     		<option >9 </option>
+     		<option >10 </option>
+     		<option >11 </option>
+     		<option >12 </option>
+     		<option >13 </option>
+     		<option >14 </option>
+     		<option >15 </option>
+     		<option >16 </option>
+     		<option >17 </option>
+     		<option >18 </option>
+     		<option >19 </option>
+     		<option >20 </option>
+     		<option >21 </option>
+     		<option >22 </option>
+     		<option >23 </option>
+     		<option >24 </option>
+     		<option >25 </option>
+     		<option >26 </option>
+     		<option >27 </option>
+     		<option id="hidedate1">28 </option>
+     		<option id="hidedate1">29 </option>
+     		<option id="hidedate1" >30 </option>
+     		<option id="hidedate2">31 </option>
+     	</select>
+     	
+     
+     	</div>
+     	<br>
+     	<br> 
+     	 <table class="caltable">
+	      	<tr>
+	      		<th> 9:00 a.m.</th>
+	      		<th> 10:00 a.m. </th>
+	      		<th> 11:00 a.m. </th>
+	      		<th> 12:00 p.m. </th>
+	      		<th> 1:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="9"> </td>
+	      		<td id="10"> </td>
+	      		<td id="11"> </td>
+	      		<td id="12"> </td>
+	      		<td id="1"> </td>
+	      		
+	      	</tr>
+	      	
+	      	<tr>
+	      		<th> 2:00 p.m. </th>
+	      		<th> 3:00 p.m. </th>
+	      		<th> 4:00 p.m. </th>
+	      		<th> 5:00 p.m. </th>
+	      		<th> 6:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="2"> </td>
+	      		<td id="3"> </td>
+	      		<td id="4"> </td>
+	      		<td id="5"> </td>
+	      		<td id="6"> </td>
+	      	</tr>
+      	
+      
+      </table> 
+     	<br><br>
+     	<label for="recipients">Invite a Group:</label>
+     		<div class="form-group">
+			  <textarea class="form-control" rows="5" id="recipients" placeholder="Recipient's: example1@syntelinc.com, example2@syntelinc.com"></textarea>
+			</div>
+     	<br>
+     	<br>
+     
+     	<button type="submit" id="submitForm" class="btn btn-primary ">Submit</button>
+     	<button type="reset" id="submitForm" class="btn btn-primary  ">Reset</button>
+     </form>
+     
+    </div> ----------------------------------------------->
+    
+    
+    
+    <div id="history" class="tab-pane fade">
+      <h3>Booking History</h3>
+      <table>
+      	<tr>
+      		<th> Date </th>
+      		<th> Start Time </th>
+      		<th> End Time </th>
+      		<th> Room </th>
+      	</tr>
+      	
+      	 <tr>
+      		<td> 5/7/18 </td>
+      		<td> 2:00 p.m. </td>
+      		<td> 3:00 p.m. </td>
+      		<td> Conference 1 </td>
+      	</tr>
+      	
+      	<tr>
+      		<td> 4/5/18 </td>
+      		<td> 3:45 p.m. </td>
+      		<td> 5:00 p.m. </td>
+      		<td> Conference 2 </td>
+      	</tr>
+      		<tr>
+      		<td> 3/30/18 </td>
+      		<td> 9:00 a.m. </td>
+      		<td> 3:00 p.m. </td>
+      		<td> Training 1 </td>
+      	</tr>
+      	
+      	
+      		<tr>
+      		<td> 3/25/18 </td>
+      		<td> 10:00 a.m. </td>
+      		<td> 12:40 p.m. </td>
+      		<td> Scrum 1 </td>
+      	</tr>
+      
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<div class="container2">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" id="roomTitle1"></h4>
+          	
+        </div>
+        
+        
+        
+        <script>
+     		$(document).ready(function(){
+     			
+	     		$("#scrum").click(function(){
+	     			if($(this).change())
+	     				{
+	     				 $("#roomTitle1").text("Your Scrum Room Bookings");
+	     				}
+	     			
+	     			});
+	     		$("#conference").click(function (){
+	     			if($(this).change())
+	     				{
+	     			 	$("#roomTitle1").text("Your Conference Room Bookings");
+	     				}
+	     		});
+		 			
+	     		$("#training").click(function (){
+	     			if($(this).change())
+	   	 			 $("#roomTitle1").text("Your Training Room Bookings");
+	   	 			
+	     		});
+	 		
+  
+     		});
+     	</script>
+        
+        <div class="modal-body">
+        <table id="roomTimes" class="table table-striped table-bordered nowrap" style="width:100%">
+	      	<tr>
+	      		<th> 5/14/18 </th>
+	      		<th> 5/16/18 </th>
+	      		<th> 5/15/18 </th>
+	      		<th> 5/17/18 </th>
+	      		<th> 5/18/18 </th>
+	      	</tr>
+	      	<tr>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	      		<td> 9:00 a.m.- 10:00 a.m. </td>
+	      		
+	      	</tr>
+	      	
+	      	<tr>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	      	</tr>
+	      	<tr>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	      		<td>  </td>
+	      		<td> 2:00 p.m.- 4:00 p.m. </td>
+	      		<td>  </td>
+	
+	      	</tr>
+      	
+      
+      </table> 
+      
+             <button type="submit" class="btn btn-success" id="editRow"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+              <button type="submit" class="btn btn-success" id="deleteRow"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+        </div>
+        <div class="modal-footer">
+         <button type="submit" class="btn btn-secondary " id="bookNow"><span class="glyphicon glyphicon-plus"></span> Make New Booking</button>
+          <button type="submit" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+         
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+ 
+<!-- -------------------------------------Make a booking Modal------------------------------ -->
+<div class="container2">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="roomTitle"></h4>
+         
+    
+        </div>
+        
+        
+        
+        <script>
+     		$(document).ready(function(){
+     			
+     			$("#scrum").click(function(){
+	     			if($(this).change())
+	     				{
+	     				 $("#roomTitle").text("Make a Scrum Room Booking");
+	     				}
+	     			
+	     			});
+	     		$("#conference").click(function (){
+	     			if($(this).change())
+	     				{
+	     			 	$("#roomTitle").text("Make a Conference Room Booking");
+	     				}
+	     		});
+		 			
+	     		$("#training").click(function (){
+	     			if($(this).change())
+	   	 			 $("#roomTitle").text("Make a Training Room Booking");
+	   	 			
+	     		});
+	 		
+  
+     		});
+     	</script>
+        
+        
+        <div class="modal-body">
+        
+  <form class="form-horizontal" role="form" class="bookingform">
+		<div class="form-group">
+     	<label>Date:</label>
+     	<select class="form-control" class="mr-sm-2" id="month" required>
+     		<option value="" selected hidden>Pick a Month </option>
+     		<option >January </option>
+     		<option value=2>February </option>
+     		<option>March </option>
+     		<option value=1>April </option>
+     		<option>May </option>
+     		<option value=1>June </option>
+     		<option>July </option>
+     		<option>August </option>
+     		<option value=1>September </option>
+     		<option>October </option>
+     		<option value=1>November </option>
+     		<option>December </option>
+     	</select>
+     	 	<select class="form-control" class="mr-sm-2" id="day" required>
+     		<option value="" selected hidden>Pick a Day </option>
+     		<option >1 </option>
+     		<option >2 </option>
+     		<option >4 </option>
+     		<option >5 </option>
+     		<option >6 </option>
+     		<option >7 </option>
+     		<option >8 </option>
+     		<option >9 </option>
+     		<option >10 </option>
+     		<option >11 </option>
+     		<option >12 </option>
+     		<option >13 </option>
+     		<option >14 </option>
+     		<option >15 </option>
+     		<option >16 </option>
+     		<option >17 </option>
+     		<option >18 </option>
+     		<option >19 </option>
+     		<option >20 </option>
+     		<option >21 </option>
+     		<option >22 </option>
+     		<option >23 </option>
+     		<option >24 </option>
+     		<option >25 </option>
+     		<option >26 </option>
+     		<option >27 </option>
+     		<option id="hidedate1">28 </option>
+     		<option id="hidedate1">29 </option>
+     		<option id="hidedate1" >30 </option>
+     		<option id="hidedate2">31 </option>
+     	</select>
+     	
+     
+     	</div>
+     	<br>
+     	<br> 
+     	 <table class="caltable" class="table table-striped table-bordered nowrap" style="width:100%">
+	      	<tr>
+	      		<th> 9:00 a.m.</th>
+	      		<th> 10:00 a.m. </th>
+	      		<th> 11:00 a.m. </th>
+	      		<th> 12:00 p.m. </th>
+	      		<th> 1:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="9"> </td>
+	      		<td id="10"> </td>
+	      		<td id="11"> </td>
+	      		<td id="12"> </td>
+	      		<td id="1"> </td>
+	      		
+	      	</tr>
+	      	
+	      	<tr>
+	      		<th> 2:00 p.m. </th>
+	      		<th> 3:00 p.m. </th>
+	      		<th> 4:00 p.m. </th>
+	      		<th> 5:00 p.m. </th>
+	      		<th> 6:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="2"> </td>
+	      		<td id="3"> </td>
+	      		<td id="4"> </td>
+	      		<td id="5"> </td>
+	      		<td id="6"> </td>
+	      	</tr>
+      	
+      
+      </table> 
+     	<br><br>
+     	<label for="recipients">Invite a Group:</label>
+     		<div class="form-group">
+			  <textarea class="form-control" rows="5" id="recipients" placeholder="Recipient's: example1@syntelinc.com, example2@syntelinc.com"></textarea>
+			</div>
+     	<br>
+     	<br>
+     
+     	<button type="submit" id="submitForm" class="btn btn-primary ">Submit</button>
+     	<button type="reset" id="submitForm" class="btn btn-primary  ">Reset</button>
+     </form> 
+   
+        </div>
+        <div class="modal-footer">
+         
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+ 
+ <!-- -------------------------------------End of Make a booking Modal------------------------------ -->
+ 
+ 
+ <div class="container2">
+  <!-- Modal2 -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog" >
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><span class="glyphicon glyphicon-pencil"></span>Edit</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form"> 
+          <div class="form-group">
+     		<label>Alter Date:</label>
+     	 	<br>
+     	 	
+     	<select class="form-control" class="mr-sm-2" id="month" required>
+     		<option value="" selected hidden>Pick a Month </option>
+     		<option >January </option>
+     		<option value=2>February </option>
+     		<option>March </option>
+     		<option value=1>April </option>
+     		<option>May </option>
+     		<option value=1>June </option>
+     		<option>July </option>
+     		<option>August </option>
+     		<option value=1>September </option>
+     		<option>October </option>
+     		<option value=1>November </option>
+     		<option>December </option>
+     	</select>
+     	 	<select class="form-control" class="mr-sm-2" id="day" required>
+     		<option value="" selected hidden>Pick a Day </option>
+     		<option >1 </option>
+     		<option >2 </option>
+     		<option >4 </option>
+     		<option >5 </option>
+     		<option >6 </option>
+     		<option >7 </option>
+     		<option >8 </option>
+     		<option >9 </option>
+     		<option >10 </option>
+     		<option >11 </option>
+     		<option >12 </option>
+     		<option >13 </option>
+     		<option >14 </option>
+     		<option >15 </option>
+     		<option >16 </option>
+     		<option >17 </option>
+     		<option >18 </option>
+     		<option >19 </option>
+     		<option >20 </option>
+     		<option >21 </option>
+     		<option >22 </option>
+     		<option >23 </option>
+     		<option >24 </option>
+     		<option >25 </option>
+     		<option >26 </option>
+     		<option >27 </option>
+     		<option id="hidedate1">28 </option>
+     		<option id="hidedate1">29 </option>
+     		<option id="hidedate1" >30 </option>
+     		<option id="hidedate2">31 </option>
+     	</select>
+     	 	 
+     	 	<br>
+     		<br>
+     		<label>Alter Time:</label>
+     		 <table class="caltable" class="table table-striped table-bordered nowrap" style="width:100%">
+	      	<tr>
+	      		<th> 9:00 a.m.</th>
+	      		<th> 10:00 a.m. </th>
+	      		<th> 11:00 a.m. </th>
+	      		<th> 12:00 p.m. </th>
+	      		<th> 1:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="9"> </td>
+	      		<td id="10"> </td>
+	      		<td id="11"> </td>
+	      		<td id="12"> </td>
+	      		<td id="1"> </td>
+	      		
+	      	</tr>
+	      	
+	      	<tr>
+	      		<th> 2:00 p.m. </th>
+	      		<th> 3:00 p.m. </th>
+	      		<th> 4:00 p.m. </th>
+	      		<th> 5:00 p.m. </th>
+	      		<th> 6:00 p.m. </th>
+	      	</tr>
+	      	<tr>
+	      		<td id="2"> </td>
+	      		<td id="3"> </td>
+	      		<td id="4"> </td>
+	      		<td id="5"> </td>
+	      		<td id="6"> </td>
+	      	</tr>
+      	
+      
+      </table> 
+     		<br>
+     		<br>
+     		<label for="recipients">Invite Additional Recipients:</label>
+     		<div class="form-group">
+			  <textarea class="form-control" rows="5" id="recipients" placeholder="Recipient's: example1@syntelinc.com, example2@syntelinc.com"></textarea>
+			</div>
+     		<br>
+     		<br>
+              <button type="submit"  class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk" id="deleteRow"></span>Save Changes</button>
+              <button type="submit" class="btn btn-secondary" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          </div>
+          </form>
+        </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ 
+<script>
+$(document).ready(function(){
+    $(".alter").click( function(){
+        $("#myModal").modal();
+        
+        $("#editRow").click(function(){
+            $("#myModal2").modal();
+        });
+        
+        $("#bookNow").click(function(){
+            $("#myModal3").modal();
+        });
+      
+    });
+   
+});
+</script>
+
+</div>
+<!-- -------------------Footer ---------------------------------->
+
+
+<footer class="footer-basic-centered">
+  
+  <p class="footer-company-name">@Copyright Synbook inc.</p>
+</footer>
+
+ 
+</body>
+
+</html>

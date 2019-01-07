@@ -1,0 +1,444 @@
+<!doctype html>
+            <html lang="en">
+            <head>
+                <!-- Required meta tags -->
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <link rel="stylesheet" href="index.css">
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+                <!-- Optional theme -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+                <link href="/path/to/bootstrap.min.css" rel="stylesheet">
+
+                <script src="/path/to/jquery.min.js"></script>
+
+                <script src="/path/to/bootstrap.min.js"></script>
+
+                <title> SynBook </title>
+                <style>
+
+
+                </style>
+
+            </head>
+            <body style="background-color:#fffef2;">
+            <!-- header -->
+            <div class="container-fluid navbar-fixed " >
+                <nav class="navbar navbar-default "  >
+                    <div class="container-fluid">
+
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_menu" aria-expanded="false">
+
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                            <img src="logo2.png"   class="img-responsive "  width="220" height="140">
+
+                                <div class="collapse navbar-collapse " id="navbar_menu">
+                                    <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm" >
+                                        <li><a class="hidden-lg  hidden-md hidden-sm"><span><strong>Binod Katwal Memphis,TN</strong></span></a></li>
+                                        <li><a href="ManageResources.html" ><strong>Home </strong></a></li>
+                                        <li><a href="#"  ><strong> Manage Booking</strong></a></li>
+                                        <li><a href="ManageResources.html" ><strong> Manage Resourse</strong></a></li>
+                                        <li><a href="#" ><strong>Reports </strong></a></li>
+                                        <li><a href="Users.html"> <strong> Users </strong></a></li>
+                                        <li><a class="hidden-lg  hidden-md hidden-sm" href="#s"> <strong> Sign Out </strong></a></li>
+                                    </ul>
+
+                                </div><!-- /.navbar-collapse -->
+
+
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle btn-danger hidden-xs" type="button" id="headerName" data-toggle="dropdown">  Binod Katwal   <span class="  glyphicon glyphicon-user "></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="login.html">Sign Out</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <ul class="nav navbar-nav navbar-right ">
+                                <img src="syntel.png"  class="img-responsive hidden-xs"  width="170" height="170">
+
+
+                                <div class="dropdown">
+                                    <button class="btn  dropdown-toggle hidden-xs" type="button" id="headerlocation" data-toggle="dropdown"> Memphis,TN
+                                        <span class=" fa fa-map-marker"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Change Location</a></li>
+
+                                    </ul>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+<!-- admin navbar     -->
+    <nav class="navbar navbar-inverse  hidden-xs" >
+
+
+              <div class="collapse navbar-collapse" id="navbar_menu">
+                <ul class="nav navbar-nav" >
+                    <li><a class="hidden-lg  hidden-md hidden-sm"><span><strong>Binod Katwal Memphis,TN</strong></span></a></li>
+                    <li><a href="ManageResources.html" ><strong>Home </strong></a></li>
+                    <li><a href="#"  ><strong> Manage Booking</strong></a></li>
+                    <li><a href="ManageResources.html" ><strong> Manage Resourse</strong></a></li>
+                    <li><a href="#" ><strong>Reports </strong></a></li>
+                    <li><a href="Users.html"> <strong> Users </strong></a></li>
+                    <li><a class="hidden-lg  hidden-md hidden-sm" href="#s"> <strong> Sign Out </strong></a></li>
+                 </ul>
+
+	        </div><!-- /.navbar-collapse -->
+
+    </nav>
+
+  </div>
+  <!-------------------------- Header ENd ----------------------------------------------->
+
+  <!-------------------------- Image Hover ----------------------------------------------->
+   <div class="container" >
+
+       <!-------------------------- Room Type Dropdown ----------------------------------------------->
+
+           <div class=" dropdown hidden-xs " id="dropdown_button">
+               <button class=" btn btn-responsive-lg btn-success dropdown-toggle btn-lg"  type="button"   data-toggle="dropdown">Room Type
+                   <span class="caret"></span></button>
+               <ul class="dropdown-menu" >
+                   <li><a href="#" data-toggle="modal" data-target="#room1">T ROOM</a></li>
+                   <li><a href="#" data-toggle="modal" data-target="#room1">B ROOM</a></li>
+                   <li><a href="#" data-toggle="modal" data-target="#room1">C ROOM</a></li>
+               </ul>
+
+               <a href="#" class=" btn btn-success btn-responsive-lg btn-lg " id="plussign"  data-toggle="modal" data-target="#add">
+                   <span class="glyphicon glyphicon-plus-sign" ></span></a>
+
+
+
+
+           </div>
+
+
+       <div class=" dropdown hidden-lg hidden-sm hidden-md " id="">
+           <button class=" btn btn-responsive-lg btn-success dropdown-toggle btn-lg"  type="button"   data-toggle="dropdown">Room Type
+               <span class="caret"></span></button>
+           <ul class="dropdown-menu" >
+               <li><a href="#" data-toggle="modal" data-target="#room1">T ROOM</a></li>
+               <li><a href="#" data-toggle="modal" data-target="#room1">B ROOM</a></li>
+               <li><a href="#" data-toggle="modal" data-target="#room1">C ROOM</a></li>
+           </ul>
+
+           <a href="#" class=" btn btn-success btn-responsive-lg btn-lg " id="plussign"  data-toggle="modal" data-target="#add">
+               <span class="glyphicon glyphicon-plus-sign" ></span></a>
+
+
+
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+       <!-------------------------- Room Record table ----------------------------------------------->
+       <div class="table-responsive-lg table table-hover">
+       <table class="table table-striped table-bordered" id="editable">
+                  <thead>
+                  <tr>
+
+                  </tr>
+                  </thead>
+                  <tbody>
+
+                  <tr >
+                      <td>T ROOM</td>
+                      <td class="bgcolor">
+                          <div class="center">
+
+
+                          <a href="#" class="confirm-delete   " role="button" data-title="kitty" data-id="2"><span class="fa fa-television " >8</span></a>
+                          <a href="#" class="confirm-delete   "><span class="fa fa-phone" > 1</span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-table " >8</span></a>
+                          <a href="#" class="confirm-delete"><span class="glyphicon glyphicon-blackboard " >6 </span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-folder-o "fa fa-folder-o >6 </span></a>
+                          </div>
+                      </td>
+                      <td class="hidden-xs"><button class="btn btn-lg btn-success ">open</button></td>
+                      <td>   <a href="#" class="confirm-delete  btn-lg btn-default " href="#" data-toggle="modal" data-target="#edit"   contenteditable="false"> <span class="glyphicon glyphicon-edit"></span> </a>
+                          <a href="#" class="confirm-delete  btn-lg btn-danger " href="#" data-toggle="modal" data-target="#delete"><span class="glyphicon glyphicon-trash" ></span></a>
+
+                      </td>
+                  </tr>
+
+                  <tr class="">
+                      <td>T ROOM</td>
+                      <td class="bgcolor">
+                          <div class="">
+                          <a href="#" class="confirm-delete   " role="button" data-title="kitty" data-id="2"><span class="fa fa-television " >9</span></a>
+                          <a href="#" class="confirm-delete   "><span class="fa fa-phone" > 1</span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-table " >9 </span></a>
+                          <a href="#" class="confirm-delete"><span class="glyphicon glyphicon-blackboard " >1 </span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-folder-o " >1</span></a>
+                          </div>
+                      </td>
+                      <td class="hidden-xs"><button class="btn btn-lg btn-success ">open</button></td>
+                      <td>   <a href="#" class="confirm-delete  btn-lg btn-default " href="#" data-toggle="modal" data-target="#edit"> <span class="glyphicon glyphicon-edit"></span> </a>
+                          <a href="#" class="confirm-delete  btn-lg btn-danger " href="#" data-toggle="modal" data-target="#delete"><span class="glyphicon glyphicon-trash" ></span></a>
+
+                      </td>
+                  </tr>
+
+                  <tr class="">
+                      <td>B ROOM</td>
+                      <td class="bgcolor">
+                          <a href="#" class="confirm-delete   " role="button" data-title="kitty" data-id="2"><span class="fa fa-television " >2</span></a>
+                          <a href="#" class="confirm-delete   "><span class="fa fa-phone" >3</span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-table " >6 </span></a>
+                          <a href="#" class="confirm-delete"><span class="glyphicon glyphicon-blackboard " >1 </span></a>
+                          <a href="#" class="confirm-delete"><span class="fa fa-folder-o " >12 </span></a>
+                      </td>
+
+                      <td class="hidden-xs"><button class="btn btn-lg btn-success ">open</button></td>
+                      <td>   <a href="#" class="confirm-delete  btn-lg btn-default " href="#" data-toggle="modal" data-target="#edit"> <span class="glyphicon glyphicon-edit"></span> </a>
+                          <a href="#" class="confirm-delete  btn-lg btn-danger " href="#" data-toggle="modal" data-target="#delete"><span class="glyphicon glyphicon-trash" ></span></a>
+
+                      </td>
+                  </tr >
+
+                  </tbody>
+              </table>
+       </div>
+   </div>
+       <!-------------------------- Next Buttons----------------------------------------------->
+
+         <div class="">
+          <ul class="pager pager-hover ">
+              <li><button class="btn btn-Secondary btn-lg" hef="#">&laquo;</button></li>
+              <li> <button class=" btn btn-Secondary btn-lg active" href="#">1</button></li>
+              <li><button class="btn btn-Secondary btn-lg" href="#">2</button></li>
+              <li><button class="btn btn-Secondary btn-lg" href="#">3</button></li>
+              <li> <button class="btn btn-Secondary btn-lg" href="#">&raquo;</button>
+          </ul>
+      </div>
+  </div>
+            <br><br> <br><br>
+
+  <!-------------------------- Footer ----------------------------------------------->
+        <footer class="footer-basic-centered">
+
+            <p class="footer-company-name">@Copyright Synbook inc.</p>
+        </footer>
+
+</body>
+
+
+
+
+</html>
+</html>
+
+
+</body>
+<!-------------------------- ----------------------------------------------------------------------->
+<!-------------------------- ----------------- ----------------------------------------------->
+<!------------------------------------ Modals-EDIT ----------------------------------------------->
+
+<!--modal-->
+<div id="edit" class="modal fade modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog model-lg vertical-align-center">
+
+
+            <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                <h1 class="text-center"><strong> Edit</strong></h1>
+
+
+                <div class="col-md-12">
+                    <div class="text-center ">
+                        <table class="table table-responsive table-hover hidden-xs">
+                            <thead>
+
+                            </thead>
+                            <tbody>
+                            <tr class="">
+                                <td>T ROOM</td>
+                                <td class="bgcolor">
+                                    <a href="#" class="confirm-delete   " role="button" data-title="kitty" data-id="2"><span class="fa fa-television " >8</span></a>
+                                    <a href="#" class="confirm-delete   "><span class="fa fa-phone" > 1</span></a>
+                                    <a href="#" class="confirm-delete"><span class="fa fa-table " >8</span></a>
+                                </td>
+                                <td><span class="label label-primary">Open</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+
+                    <div class="col-md-6">
+                        <button class="btn btn-lg" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-primary btn-lg" data-dismiss="modal" aria-hidden="true">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+
+    </div>
+</div>
+
+<!-------------------------- Modals-DELETE ----------------------------------------------->
+<div id="delete" class="modal fade modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog model-lg vertical-align-center">
+
+        <div class="modal-content">
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                <h1 class="text-center"><strong> Delete </strong></h1>
+
+
+                <div class="col-md-12">
+                            <div class="text-center ">
+                                    <table class="table table-responsive table-hover hidden-xs">
+                                        <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th> </th>
+                                            <th></th>
+                                            <th> </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr class="">
+                                            <td>T ROOM</td>
+                                            <td  class="bgcolor" >
+                                                <a href="#" class="confirm-delete   " role="button" data-title="kitty" data-id="2"><span class="fa fa-television " >2</span></a>
+                                                <a href="#" class="confirm-delete   "><span class="fa fa-phone" >3</span></a>
+                                                <a href="#" class="confirm-delete"><span class="fa fa-table " >6 </span></a>
+                                                <a href="#" class="confirm-delete"><span class="glyphicon glyphicon-blackboard " >1 </span></a>
+                                                <a href="#" class="confirm-delete"><span class="fa fa-folder-o " >12 </span></a>
+                                            </td>
+                                            <td><span class="label label-primary">Open</span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+
+
+                </div>
+
+            <div class="modal-footer">
+
+                <div class="col-md-6">
+                    <button class="btn btn-lg" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary btn-lg" data-dismiss="modal" aria-hidden="true">Delete</button>
+                </div>
+            </div>
+        </div>
+        </div></div>
+</div>
+
+
+
+
+
+
+<!-------------------------- Modals-ADD ----------------------------------------------->
+<div id="add" class="modal fade modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+    <div class="modal-dialog model-lg vertical-align-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                <h1 class="text-center"><strong> Room TYPE </strong></h1>
+            </div>
+            <div class="modal-body">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="text-center ">
+                                <div class="panel-body">
+
+                                    <div class="form-group">
+
+                                        <div class="input-group">
+                                            <span class="input-group-addon"> <i class=" "> </i> </span>
+                                            <input type="text" class="form-control"  placeholder="Room-ID" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"> <i class=" "> </i> </span>
+                                            <select type="email" class="form-control text-center"  placeholder="Room Type" required>
+                                                <option> Room Type </option>
+                                                <option> T ROOM </option>
+                                                <option> B ROOM </option>
+                                                <option> C ROOM </option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"> <i class=" "> </i> </span>
+                                            <input type="text" class="form-control"  placeholder=" Features">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <div class="col-md-6">
+                    <button class="btn btn-lg" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary btn-lg" data-dismiss="modal" aria-hidden="true">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
